@@ -1,2 +1,0 @@
-# practice_imn
-aaa
