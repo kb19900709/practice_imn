@@ -40,6 +40,23 @@ def show_how_animal_works():
         animal.cry()
         print('-----------------------')
         animal.pee()
+
+    ###
+    #   get field or get atrribute
+    #
+    #   monkey2.id
+    #   monkey2.sex
+    #   monkey2.weight
+    #   monkey2.height
+    #   monkey2.breed
+    #   monkey2.flur_color
+    #   -----------------------
+    #   invoke a function from an instance
+    #
+    #   monkey2.eat()
+    #   monkey2.sleep()    
+    #   monkey2.my_name('selena')
+    ###
        
     
 if __name__ == '__main__':

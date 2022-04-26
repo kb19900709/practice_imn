@@ -1,7 +1,24 @@
 
 class Animal:
-    # Selena will implemet here
+    # valuable = (data source) -> maybe from a function or construction or specify a value like a str or int
+    #
+    # for example :
+    # valuable = ClassName(args..)
+    # monkey1 = Monkey(1, 'male', 35, 125, 'mammal', 'brown')
+    # 
+    # valuable = function_name()
+    # valuable = '123' or 123 or []
+    #
+    # for every function in a class, the first arguement must be self, which means the reference of the instance
+    #
+    # (arguement or parampter)
+    #
+    # def -> for create a function
+    # to use a function, you need to add valuable.function_name(args...)
+
+    # construction: __init__
     def __init__(self, id, sex, weight, height, breed):
+        # (field or attribute)
         self.id = id
         self.sex = sex
         self.weight = weight
@@ -19,6 +36,9 @@ class Animal:
         
     def pee(self):
         print('I drink too much water')
+    
+    def my_name(self, str):
+        return str
 
 
 class Monkey(Animal):
