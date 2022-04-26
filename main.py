@@ -1,4 +1,4 @@
-from animal_config import bear, monkey, tiger
+from animal_config import Bear, Monkey, Tiger
 from car_config import Bus, SchoolBus, Tank
 
 
@@ -24,12 +24,12 @@ def main():
 
 def show_how_animal_works():
     # Selena will implemet here
-    monkey1 = monkey(1, 'male', 35, 125, 'mammal', 'brown')
-    monkey2 = monkey(2, 'female', 75, 105, 'mammal', 'black')
-    bear1 = bear(3, 'male', 180, 200, 'mammal', 'white', 'ice')
-    bear2 = bear(4, 'male', 230, 300, 'mammal', 'brown', 'forest')
-    tiger1 = tiger(5, 'female', 100, 80, 'mammal')
-    tiger2 = tiger(6, 'male', 150, 90, 'mammal')
+    monkey1 = Monkey(1, 'male', 35, 125, 'mammal', 'brown')
+    monkey2 = Monkey(2, 'female', 75, 105, 'mammal', 'black')
+    bear1 = Bear(3, 'male', 180, 200, 'mammal', 'white', 'ice')
+    bear2 = Bear(4, 'male', 230, 300, 'mammal', 'brown', 'forest')
+    tiger1 = Tiger(5, 'female', 100, 80, 'mammal')
+    tiger2 = Tiger(6, 'male', 150, 90, 'mammal')
 
     animal_list = [monkey1, monkey2, bear1, bear2, tiger1, tiger2]
     for animal in animal_list:

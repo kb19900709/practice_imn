@@ -21,7 +21,7 @@ class Animal:
         print('I drink too much water')
 
 
-class monkey(Animal):
+class Monkey(Animal):
     def __init__(self, id, sex, weight, height, breed, flur_color):
         super(). __init__(id, sex, weight, height, breed)
         self.flur_color = flur_color
@@ -33,7 +33,7 @@ class monkey(Animal):
         print('is time to take a rest')
 
 
-class bear(monkey):
+class Bear(Monkey):
     def __init__(self, id, sex, weight, height, breed, flur_color, habitat):
         super(). __init__(id, sex, weight, height, breed, flur_color)
         self.habitat = habitat
@@ -45,6 +45,6 @@ class bear(monkey):
         print('please be quiet')
 
 
-class tiger(Animal):
+class Tiger(Animal):
     def sleep(self):
         print('Go away, i want to sleep now!')
